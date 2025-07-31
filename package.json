@@ -5,14 +5,13 @@
   "main": "lib/index",
   "scripts": {
     "build": "tsc",
-    "prepare": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc"
   },
   "files": [
     "lib"
   ],
   "keywords": [],
-  "author": "",
+  "author": "Toaha Bhuiyan <toahabhuiyan@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {

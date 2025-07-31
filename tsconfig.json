@@ -1,23 +1,13 @@
 {
-    "compilerOptions": {
-      "target": "es2018",
-      "module": "commonjs",
-      "allowJs": true,
-      "checkJs": false,
-      "outDir": "lib",
-      "strict": false,
-      "noImplicitThis": true,
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "declaration": true,
-      "resolveJsonModule": true,
-      "experimentalDecorators": true,
-      "lib": [
-        "dom",
-        "dom.iterable",
-        "esnext"
-      ],
-    },
-    "include": ["index.ts"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
