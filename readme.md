@@ -18,6 +18,12 @@ A lightweight middleware for serving beautiful Stoplight Elements OpenAPI docume
 npm i git+https://github.com/YallaSystems/stoplight-doc
 ```
 
+## Upgrade Package
+
+```bash
+npm upgrade @essex/stoplight-docs
+```
+
 ### Usage
 ```typescript
 import { apiReference } from '@essex/stoplight-docs';
