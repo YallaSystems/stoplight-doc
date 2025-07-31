@@ -32,3 +32,7 @@ app.use('/api-docs', apiReference({
   spec: { content: openApiDocument },
 }));
 ```
+
+### Why we create this package
+- We want to serve Stoplight Elements OpenAPI documentation in NestJS/Express applications with minimal setup.
+- To avoid redundant code accross the projects.
