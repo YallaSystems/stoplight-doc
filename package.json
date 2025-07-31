@@ -2,7 +2,7 @@
   "name": "@essex/stoplight-docs",
   "version": "1.0.0",
   "description": "",
-  "main": "main/index",
+  "main": "lib/index",
   "scripts": {
     "build": "tsc",
     "prepare": "tsc",
